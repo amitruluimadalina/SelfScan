@@ -53,10 +53,10 @@ const questions = [
         ],
     },
 ];
-app.get("/api/questions/count", (req, res) => {
+app.get("/questions/count", (req, res) => {
     res.json(questions.length);
 });
-app.get("/api/questions/:id", (req, res) => {
+app.get("/questions/:id", (req, res) => {
     const questionId = parseInt(req.params.id);
     const question = questions.find((q) => q.id === questionId);
     if (question) {
