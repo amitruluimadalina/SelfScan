@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import Lottie from "react-lottie";
-import clouds from "../../assets/animation/clouds.json";
+import clouds from "../../../assets/animation/clouds.json";
+import { defaultAnimationOptions } from "../../../assets/animation/animationOptions/defaultAnimationSettings";
 import CenteredLayout from "../../components/CenteredLayout";
 import { navigationDetails } from "../../constants/navigation";
 import { homePageText } from "../../constants/info";
 import BlueRoundedButton from "../../components/BlueRoundedButton";
-import { defaultAnimationOptions } from "../../assets/animation/animationOptions/defaultAnimationSettings";
 
 export default function Home() {
   return (

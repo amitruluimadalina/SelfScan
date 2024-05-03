@@ -1,7 +1,7 @@
-import { defaultAnimationOptions } from "../assets/animation/animationOptions/defaultAnimationSettings";
+import error from "../../assets/animation/error.json";
+import { defaultAnimationOptions } from "../../assets/animation/animationOptions/defaultAnimationSettings";
 import CenteredLayout from "./CenteredLayout";
 import Lottie from "react-lottie";
-import error from "../assets/animation/error.json";
 
 export default function ErrorFallback() {
   return (

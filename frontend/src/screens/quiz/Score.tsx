@@ -1,8 +1,8 @@
 import CenteredLayout from "../../components/CenteredLayout";
-import celebrate from "../../assets/animation/celebrate.json";
 import Lottie from "react-lottie";
-import { defaultAnimationOptions } from "../../assets/animation/animationOptions/defaultAnimationSettings";
 import { scorePageText } from "../../constants/info";
+import celebrate from "../../../assets/animation/celebrate.json";
+import {defaultAnimationOptions} from "../../../assets/animation/animationOptions/defaultAnimationSettings"
 
 type ScoreProps = {
   calculateIsExtroverted: () => boolean;

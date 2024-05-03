@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { navigationItems } from "../constants/navigation";
 import { Bars3Icon } from "@heroicons/react/24/outline";
-import logo from "../assets/logo/logo.png";
+import logo from "../../assets/logo/logo.png";
 import { appName } from "../constants/info";
 
 type NavbarProps = {
