@@ -1,5 +1,5 @@
-import error from "../../assets/animation/error.json";
-import { defaultAnimationOptions } from "../../assets/animation/animationOptions/defaultAnimationSettings";
+import error from "../../public/assets/animation/error.json";
+import { defaultAnimationOptions } from "../../public/assets/animation/animationOptions/defaultAnimationSettings";
 import CenteredLayout from "./CenteredLayout";
 import Lottie from "react-lottie";
 
