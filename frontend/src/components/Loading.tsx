@@ -1,5 +1,5 @@
-import loading from "../../public/assets/animation/loading.json";
-import { defaultAnimationOptions } from "../../public/assets/animation/animationOptions/defaultAnimationSettings";
+import loading from "/assets/animation/loading.json?url";
+import { defaultAnimationOptions } from "../constants/defaultAnimationSettings";
 import CenteredLayout from "./CenteredLayout";
 import Lottie from "react-lottie";
 

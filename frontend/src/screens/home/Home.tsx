@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Lottie from "react-lottie";
-import clouds from "../../../public/assets/animation/clouds.json";
-import { defaultAnimationOptions } from "../../../public/assets/animation/animationOptions/defaultAnimationSettings";
+import clouds from "/assets/animation/clouds.json?url";
+import { defaultAnimationOptions } from "../../constants/defaultAnimationSettings";
 import CenteredLayout from "../../components/CenteredLayout";
 import { navigationDetails } from "../../constants/navigation";
 import { homePageText } from "../../constants/info";
