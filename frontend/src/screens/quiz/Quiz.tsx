@@ -1,9 +1,9 @@
 import { Link, useParams } from "react-router-dom";
 import CenteredLayout from "../../components/CenteredLayout";
-import useQuestion from "./hooks/useQuestion";
 import QuizOption from "./QuizOption";
-import { getQuizNavigationData } from "./utils/quizNavigation";
 import { quizNavigationButtonText } from "./constants/quizNavigation";
+import useQuestion from "./hooks/useQuestion";
+import { getQuizNavigationData } from "./utils/quizNavigation";
 
 type QuizProps = {
   scores: number[];

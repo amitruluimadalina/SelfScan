@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-// import Lottie from "react-lottie";
-// import clouds from "../../../public/assets/animation/clouds.json";
-// import { defaultAnimationOptions } from "../../constants/defaultAnimationSettings";
-import CenteredLayout from "../../components/CenteredLayout";
-import { navigationDetails } from "../../constants/navigation";
-import { homePageText } from "../../constants/info";
+import Lottie from "react-lottie";
 import BlueRoundedButton from "../../components/BlueRoundedButton";
+import CenteredLayout from "../../components/CenteredLayout";
+import { defaultAnimationOptions } from "../../constants/defaultAnimationSettings";
+import { homePageText } from "../../constants/info";
+import { navigationDetails } from "../../constants/navigation";
+import clouds from "../../assets/clouds.json"
 
 export default function Home() {
   return (
@@ -23,12 +23,12 @@ export default function Home() {
           </Link>
         </div>
         <div className="mt-8 lg:mt-0">
-          {/* <Lottie
+          <Lottie
             options={{ ...defaultAnimationOptions, animationData: clouds }}
             height={300}
             width={300}
             speed={0.5}
-          /> */}
+          />
         </div>
       </div>
     </CenteredLayout>

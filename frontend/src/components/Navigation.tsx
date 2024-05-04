@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Navbar from "./Navbar";
 import Drawer from "./Drawer";
+import Navbar from "./Navbar";
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -8,7 +8,7 @@ export default function Navigation() {
   function onToggleMobileMenu() {
     setMobileMenuOpen((open) => !open);
   }
-  
+
   return (
     <header>
       <Navbar onToggleMobileMenu={onToggleMobileMenu} />

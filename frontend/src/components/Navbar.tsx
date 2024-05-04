@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
-import { navigationItems } from "../constants/navigation";
 import { Bars3Icon } from "@heroicons/react/24/outline";
-import logo from "/assets/logo/logo.png";
 import { appName } from "../constants/info";
+import { navigationItems } from "../constants/navigation";
 
 type NavbarProps = {
   onToggleMobileMenu: () => void;
@@ -15,7 +14,6 @@ export default function Navbar({ onToggleMobileMenu }: NavbarProps) {
       aria-label="Navigation"
     >
       <div className="flex lg:flex-1 items-center">
-        <img src={logo} alt="Logo" className="h-14 w-auto" />
         <span className="font-semibold text-gray-900 ml-2">{appName}</span>
       </div>
       <div className="flex lg:hidden">

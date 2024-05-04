@@ -1,8 +1,9 @@
 import { navigationDetails } from "../../../constants/navigation";
 
+
 export function getQuizNavigationData(
   currentStepId: number,
-  stepCount: number =0
+  stepCount: number = 0
 ) {
   const hasPreviousStep = currentStepId > 0;
   const isFinishStep = currentStepId === stepCount - 1;
